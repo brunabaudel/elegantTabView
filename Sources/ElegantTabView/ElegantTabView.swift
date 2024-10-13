@@ -59,43 +59,43 @@ public struct ElegantTabView<Content: View>: View {
 
 
 extension ElegantTabView {
-    func background(_ color: Color) -> Self {
+    public func background(_ color: Color) -> Self {
         var view = self
         view.tabBarBackgroundColor = color
         return view
     }
     
-    func background(_ material: Material) -> Self {
+    public func background(_ material: Material) -> Self {
         var view = self
         view.tabBarBackgroundMaterial = material
         return view
     }
     
-    func foreground(_ color: Color) -> Self {
+    public func foreground(_ color: Color) -> Self {
         var view = self
         view.tabBarButtonsColor = color
         return view
     }
     
-    func foregroundDisabled(_ color: Color) -> Self {
+    public func foregroundDisabled(_ color: Color) -> Self {
         var view = self
         view.tabBarButtonsDisabledColor = color
         return view
     }
     
-    func indicator(_ color: Color) -> Self {
+    public func indicator(_ color: Color) -> Self {
         var view = self
         view.tabBarIndicatorColor = color
         return view
     }
     
-    func padding(_ lenght: CGFloat) -> Self {
+    public func padding(_ lenght: CGFloat) -> Self {
         var view = self
         view.tabBarPaddingLenght = lenght
         return view
     }
     
-    func padding(_ edge: Edge.Set, _ lenght: CGFloat) -> Self {
+    public func padding(_ edge: Edge.Set, _ lenght: CGFloat) -> Self {
         var view = self
         view.tabBarPaddingEdge = edge
         view.tabBarPaddingLenght = lenght
