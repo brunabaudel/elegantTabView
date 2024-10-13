@@ -1,7 +1,7 @@
 import XCTest
-@testable import ElegantTabViiew
+@testable import ElegantTabView
 
-final class ElegantTabViiewTests: XCTestCase {
+final class ElegantTabViewTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest
